@@ -59,10 +59,16 @@ a:hover, a:focus {
   font-size: 4em;
 }
 
-.skills {
+.skillContainer {
   margin-bottom: 5%;
 }
 
 .hero-unit {
   background-color: rgba(0,0,0,0.4);
+}
+#particles-js {
+  height: 45% !important;
+  width: 100%;
+  position: absolute;
+  z-index: 50;
 }
