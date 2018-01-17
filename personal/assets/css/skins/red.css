@@ -54,3 +54,15 @@ a:hover, a:focus {
 .chart .percent {
   color: #EC2121;
 }
+
+.icons {
+  font-size: 4em;
+}
+
+.skills {
+  margin-bottom: 5%;
+}
+
+.hero-unit {
+  background-color: rgba(0,0,0,0.4);
+}
