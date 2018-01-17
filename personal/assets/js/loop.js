@@ -264,42 +264,42 @@ jQuery( function($){
 	/*---------------------*/
 
 	$('#contact-form').parsley();
-
-	$('.contact-form form').submit( function(e) {
-		
-		e.preventDefault();
-
-		if( !$(this).parsley('isValid') )
-			return;
-
-		$theForm = $(this);
-		$btn = $(this).find('#submit-button');
-		$btnText = $btn.text();
-		$alert = $(this).parent().find('.alert');
-
-		$btn.find('.loading-icon').addClass('fa-spinner fa-spin ');
-		$btn.prop('disabled', true).find('span').text("Sending...");
-
-		$.post('contact.php', $(this).serialize(), function(data){
-			
-			$message = data.message;
-			
-			if( data.result == true ){
-				$theForm.slideUp('medium', function() {
-					$alert.removeClass('alert-danger');
-					$alert.addClass('alert-success').html($message).slideDown('medium');
-				});
-			}else {
-				$alert.addClass('alert-danger').html($message).slideDown('medium');
-			}
-
-			$btn.find('.loading-icon').removeClass('fa-spinner fa-spin ');
-			$btn.prop('disabled', false).find('span').text($btnText);
-
-		})
-		.fail(function() { console.log('AJAX Error'); });
-
-	});
+	
+		$('.contact-form form').submit(function (e) {
+	
+			e.preventDefault();
+	
+			if (!$(this).parsley('isValid'))
+				return;
+	
+			$theForm = $(this);
+			$btn = $(this).find('#submit-button');
+			$btnText = $btn.text();
+			$alert = $(this).parent().find('.alert');
+	
+			$btn.find('.loading-icon').addClass('fa-spinner fa-spin ');
+			$btn.prop('disabled', true).find('span').text("Sending...");
+	
+			$.post('/portfolio2/personal/mail_handler.php', $(this).serialize(), function (data) {
+	
+				$message = JSON.parse(data);
+	
+				if ($message.success == true) {
+					$theForm.slideUp('medium', function () {
+						$alert.removeClass('alert-danger');
+						$alert.addClass('alert-success').html("Thank you. We will contact you soon").slideDown('medium');
+					});
+				} else {
+					$alert.addClass('alert-danger').html("Please check your information and try again").slideDown('medium');
+				}
+	
+				$btn.find('.loading-icon').removeClass('fa-spinner fa-spin ');
+				$btn.prop('disabled', false).find('span').text($btnText);
+	
+			})
+				.fail(function () { console.log('AJAX Error'); });
+	
+		});
 
 
 	// init scrollspy except on Opera, it doesn't work because body has 100% height
