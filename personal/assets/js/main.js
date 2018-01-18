@@ -4,15 +4,17 @@ $(document).ready(function() {
 
     $('.phone').text(phone);
     $('.email').text(email).attr('href', 'mailto:'+ email);
-    $('.live').on('click', liveButton);
-    $('.code').on('click', codeButton);    
+    $('.cubeTubeLive').on('click', cubeTubeLiveButton);
+    $('.cubeTubeCode').on('click', cubeTubeCodeButton);  
+    $('.southParkCode').on('click', southParkCodeButton);  
 });
 
-function liveButton() {
-    console.log('clicked')
+function cubeTubeLiveButton() {
     window.open('https://www.thecubetube.com');
 }
-function codeButton() {
-    console.log('clicked')
+function cubeTubeCodeButton() {
     window.open('https://github.com/ckim618/The_Cube_Tube');
+}
+function southParkCodeButton() {
+    window.open('https://github.com/ckim618/South_Park_GuessingGame');
 }
