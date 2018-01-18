@@ -5439,12 +5439,13 @@ img.mfp-img {
 /* SOCIAL NETWORK
 /* --------------------- */
 #social-network {
-  background-image: url('../img/sky.jpg?1394021998');
+  background-image: url('../img/webInfo.jpg');
   text-align: center;
 }
 #social-network h2 {
   color: #fff;
   font-size: 3em;
+      text-shadow: 2px 2px #656060;
 }
 @media screen and (max-width: 480px) {
   #social-network h2 {
