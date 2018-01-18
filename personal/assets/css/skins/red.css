@@ -77,6 +77,21 @@ a:hover, a:focus {
   width: 35%;
   margin-bottom: 5%;
 }
+.live {
+  margin-right: 10px;  
+}
+.live:hover, .code:hover {
+  cursor: pointer;
+  color: red;
+}
+.code {
+  margin-left: 10px;
+}
+.live, .code {
+  font-size: 1.5em;
+}
+
+
 @media only screen and (max-width: 500px) {
   .selfImg {
     width: 50%;
