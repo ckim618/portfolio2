@@ -90,7 +90,7 @@ jQuery(function ($) {
 			slides: [				// Slideshow Images
 				{ image: 'assets/img/sliders/slider1.jpg', title: '<div class="hero-text"><h2 class="hero-heading">Chris Kim</h2><p>Web Developer</p></div>', thumb: '', url: '' },
 				{ image: 'assets/img/sliders/slider2.jpg', title: '<div class="hero-text"><h2 class="hero-heading">Chris Kim</h2><p>Basketball Fanatic</p></div>', thumb: '', url: '' },
-				{ image: 'assets/img/sliders/slider3.jpg', title: '<div class="hero-text"><h2 class="hero-heading">Chris Kim</h2><p>Foodie</p></div>', thumb: '', url: '' }
+				{ image: 'assets/img/sliders/slider3.jpg', title: '<div class="hero-text"><h2 class="hero-heading">Chris Kim</h2><p>Food Connoisseur</p></div>', thumb: '', url: '' }
 			],
 		});
 
