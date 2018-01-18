@@ -90,7 +90,16 @@ a:hover, a:focus {
 .live, .code {
   font-size: 1.5em;
 }
-
+.tintedOverlay {
+  height: 302px;
+  background-color: rgba(0,0,0,0.5);
+}
+.full-width-parallax  {
+  padding: 0;
+}
+.webLinks {
+  margin-top: 7%;
+}
 
 @media only screen and (max-width: 500px) {
   .selfImg {
