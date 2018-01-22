@@ -100,6 +100,9 @@ a:hover, a:focus {
 .webLinks {
   margin-top: 7%;
 }
+.contact-text {
+  font-size: 1em !important;
+}
 
 @media only screen and (max-width: 500px) {
   .selfImg {

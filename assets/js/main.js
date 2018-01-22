@@ -19,7 +19,7 @@ function cubeTubeCodeButton() {
     window.open('https://github.com/ckim618/The_Cube_Tube');
 }
 function southParkLiveButton() {
-    window.open('https://dev.ckimcode.life/guessinggame');
+    window.open('http://guess.ckimcode.life/');
 }
 function southParkCodeButton() {
     window.open('https://github.com/ckim618/South_Park_GuessingGame');
