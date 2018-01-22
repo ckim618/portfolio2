@@ -142,25 +142,6 @@ jQuery(function ($) {
 
 
 	/*----------------------/
-	/* TWITTER STREAM
-	/*---------------------*/
-
-	var configProfile = {
-		profile: { screenName: "thedevelovers" }, // provide your twitter username here
-		domId: "tweet",
-		maxTweets: 1,
-		enableLinks: true,
-		showUser: false,
-		showTime: false,
-		showImages: false,
-		showInteraction: false,
-		lang: "en"
-	};
-
-	twitterFetcher.fetch(configProfile);
-
-
-	/*----------------------/
 	/* SCROLL TO TOP
 	/*---------------------*/
 
@@ -280,7 +261,7 @@ jQuery(function ($) {
 		$btn.find('.loading-icon').addClass('fa-spinner fa-spin ');
 		$btn.prop('disabled', true).find('span').text("Sending...");
 
-		$.post('mail_handler.php', $(this).serialize(), function (data) {
+		$.post('../../mail_handler.php', $(this).serialize(), function (data) {
 
 			$message = JSON.parse(data);
 
@@ -312,6 +293,10 @@ jQuery(function ($) {
 	}
 
 });
+
+	/*----------------------/
+	/* Particles
+	/*---------------------*/
 
 particlesJS('particles-js',
 	{
