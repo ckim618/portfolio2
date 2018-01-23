@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     $('.phone').text(phone);
     $('.email').text(email).attr('href', 'mailto:'+ email);
-    $('.resume').on('click', resumeButton)
+    $('.resume').attr('href', 'https://drive.google.com/file/d/1q6CxJ-EED9TxEeyE0JxohUGdyo7TxYB1/view?usp=sharing');
     $('.cubeTubeLive').on('click', cubeTubeLiveButton);
     $('.cubeTubeCode').on('click', cubeTubeCodeButton); 
     $('.southParkLive').on('click', southParkLiveButton);    
@@ -13,9 +13,9 @@ $(document).ready(function() {
     $('.eatAbroadCode').on('click', eatAbroadCodeButton);  
 });
 
-function resumeButton() {
-    window.open('https://drive.google.com/file/d/1q6CxJ-EED9TxEeyE0JxohUGdyo7TxYB1/view?usp=sharing');
-}
+// function resumeButton() {
+//     window.open('https://drive.google.com/file/d/1q6CxJ-EED9TxEeyE0JxohUGdyo7TxYB1/view?usp=sharing');
+// }
 
 function cubeTubeLiveButton() {
     window.open('https://www.thecubetube.com');

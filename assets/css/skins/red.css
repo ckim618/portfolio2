@@ -103,10 +103,16 @@ a:hover, a:focus {
 .contact-text {
   font-size: 1em !important;
 }
+.button-container {
+  display: inline-flex;
+}
 .resumeIcon {
   padding-right: 5px; 
 }
-
+.resume {
+  width: 18rem;
+  margin-left: 20px;
+}
 @media only screen and (max-width: 500px) {
   .selfImg {
     width: 50%;
