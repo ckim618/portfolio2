@@ -354,7 +354,7 @@ a:hover, a:focus {
 /* 3rd PARTY STYLES
 /* --------------------- */
 .parallax {
-  background-attachment: fixed !important;
+  /* background-attachment: fixed !important; */
   background-size: cover;
 }
 @media screen and (max-width: 1024px) {
