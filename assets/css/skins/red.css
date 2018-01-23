@@ -112,6 +112,7 @@ a:hover, a:focus {
 .resume {
   width: 18rem;
   margin-left: 20px;
+  padding-top: 3.5%;
 }
 @media only screen and (max-width: 500px) {
   .selfImg {
@@ -125,10 +126,22 @@ a:hover, a:focus {
     width: 16rem;
   }
   .resume {
-    width: 12rem;
-    margin-left: 15px;
-    height: 4.65rem;
-    font-size: 1.5rem;
-    margin-right: 10px;
+    width: 15rem;
+    margin-left: 20px;
+    height: 4.6rem;
+    padding-top: 5px
   }
 }
+
+@media only screen and (max-width: 350px) {
+  .resume {
+    width: 13rem;
+    margin-left: 10px;
+    height: 4.6rem;
+    padding-top: 5px
+  }
+}
+
+
+
+
