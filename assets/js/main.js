@@ -11,6 +11,8 @@ $(document).ready(function() {
     $('.southParkCode').on('click', southParkCodeButton); 
     $('.eatAbroadLive').on('click', eatAbroadLiveButton);
     $('.eatAbroadCode').on('click', eatAbroadCodeButton);  
+    $('.natoursLive').on('click', natoursLiveButton);
+    $('.natoursCode').on('click', natoursCodeButton);  
 });
 
 // function resumeButton() {
@@ -30,8 +32,14 @@ function southParkCodeButton() {
     window.open('https://github.com/ckim618/South_Park_GuessingGame');
 }
 function eatAbroadLiveButton() {
-    window.open('http://dev.ckimcode.life/eatabroad');
+    window.open('http://ckimcode.life/eatabroad');
 }
 function eatAbroadCodeButton() {
     window.open('https://github.com/ckim618/eat_abroad');
+}
+function natoursLiveButton() {
+    window.open('http://ckimcode.life/natours/');
+}
+function natoursCodeButton() {
+    window.open('https://github.com/ckim618/natours');
 }
