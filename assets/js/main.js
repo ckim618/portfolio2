@@ -15,9 +15,6 @@ $(document).ready(function() {
     $('.natoursCode').on('click', natoursCodeButton);  
 });
 
-// function resumeButton() {
-//     window.open('https://drive.google.com/file/d/1q6CxJ-EED9TxEeyE0JxohUGdyo7TxYB1/view?usp=sharing');
-// }
 
 function cubeTubeLiveButton() {
     window.open('https://www.thecubetube.com');
