@@ -120,6 +120,12 @@ a:hover, a:focus {
 .project-img {
   height: 250px !important;
 }
+@media only screen and (max-width: 550px) {
+  .live, .code {
+    font-size: 1em;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .selfImg {
     width: 50%;
