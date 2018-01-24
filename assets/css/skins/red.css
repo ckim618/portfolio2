@@ -117,6 +117,9 @@ a:hover, a:focus {
 .phone:hover {
   cursor: pointer;
 }
+.project-img {
+  height: 250px !important;
+}
 @media only screen and (max-width: 500px) {
   .selfImg {
     width: 50%;
