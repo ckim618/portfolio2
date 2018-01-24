@@ -5,6 +5,8 @@ $(document).ready(function() {
     $('.phone').text(phone).attr('href', 'tel:19096153529');
     $('.email').text(email).attr('href', 'mailto:'+ email);
     $('.cubeTubeLive').on('click', cubeTubeLiveButton);
+    $('.resume').attr('href', 'https://drive.google.com/file/d/1mxhRuuxJW2_j_RDPvh26T0bmlUmDSqeW/view?usp=sharing');
+    $('.cubeTubeLive').on('click', cubeTubeLiveButton);
     $('.cubeTubeCode').on('click', cubeTubeCodeButton); 
     $('.southParkLive').on('click', southParkLiveButton);    
     $('.southParkCode').on('click', southParkCodeButton); 
