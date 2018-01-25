@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     $('.phone').text(phone).attr('href', 'tel:19096153529');
     $('.email').text(email).attr('href', 'mailto:'+ email);
-    $('.resume').on('click', resume);    
+    $('.resume').on('click', resumeButton);    
     $('.cubeTubeLive').on('click', cubeTubeLiveButton);
     $('.cubeTubeLive').on('click', cubeTubeLiveButton);
     $('.cubeTubeCode').on('click', cubeTubeCodeButton); 
@@ -16,7 +16,7 @@ $(document).ready(function() {
     $('.natoursCode').on('click', natoursCodeButton);  
 });
 
-function resume() {
+function resumeButton() {
     window.open('https://drive.google.com/file/d/1cyHzALo9XrGwPCzqH5iCQdYmQ2a1-2np/view?usp=sharing');
 }
 
