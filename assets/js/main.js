@@ -17,7 +17,7 @@ $(document).ready(function() {
 });
 
 function resume() {
-    window.open('https://drive.google.com/file/d/1CDJ9jwrurwqWuulz4f_Zqby4xFf2Pnec/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1cyHzALo9XrGwPCzqH5iCQdYmQ2a1-2np/view?usp=sharing');
 }
 
 function cubeTubeLiveButton() {
