@@ -44,3 +44,6 @@ function natoursLiveButton() {
 function natoursCodeButton() {
     window.open('https://github.com/ckim618/natours');
 }
+function mboutiqueCodeButton() {
+    window.open('https://github.com/ckim618/natours');
+}
