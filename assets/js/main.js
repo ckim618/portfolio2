@@ -20,7 +20,7 @@ $(document).ready(function() {
 });
 
 function resumeButton() {
-    window.open('https://drive.google.com/file/d/1cyHzALo9XrGwPCzqH5iCQdYmQ2a1-2np/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1hYZfdi86H-VMDJ8AmHuQA3adZyCrWLD-/view?usp=sharing');
 }
 
 function cubeTubeLiveButton() {
