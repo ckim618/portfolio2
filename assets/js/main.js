@@ -13,7 +13,10 @@ $(document).ready(function() {
     $('.eatAbroadLive').on('click', eatAbroadLiveButton);
     $('.eatAbroadCode').on('click', eatAbroadCodeButton);  
     $('.natoursLive').on('click', natoursLiveButton);
-    $('.natoursCode').on('click', natoursCodeButton);  
+    $('.natoursCode').on('click', natoursCodeButton);
+    $('.mboutiqueLive').on('click', mboutiqueLiveButton);
+    $('.mboutiqueCode').on('click', mboutiqueCodeButton);
+     
 });
 
 function resumeButton() {
@@ -45,5 +48,8 @@ function natoursCodeButton() {
     window.open('https://github.com/ckim618/natours');
 }
 function mboutiqueCodeButton() {
-    window.open('https://github.com/ckim618/natours');
+    window.open('https://github.com/ckim618/M_Boutique');
+}
+function mboutiqueLiveButton() {
+    window.open('http://mboutique.ckimcode.life');
 }
