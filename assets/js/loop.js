@@ -88,7 +88,7 @@ jQuery(function ($) {
 			slide_links: 'blank',		// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 			thumb_links: 0,				// Individual thumb links for each slide
 			slides: [				// Slideshow Images
-				{ image: 'assets/img/sliders/slider1.jpg', title: '<div class="hero-text"><h2 class="hero-heading">Chris Kim</h2><p>Front-End Web Developer (HTML5, CSS3, Javascript)</p></div>', thumb: '', url: '' },
+				{ image: 'assets/img/sliders/slider1.jpg', title: '<div class="hero-text"><h2 class="hero-heading">Chris Kim</h2><p>Front-End Web Developer</p></br>(HTML5, CSS3, Javascript)</div>', thumb: '', url: '' },
 				{ image: 'assets/img/sliders/slider2.jpg', title: '<div class="hero-text"><h2 class="hero-heading">Chris Kim</h2><p>Basketball Fanatic</p></div>', thumb: '', url: '' },
 				{ image: 'assets/img/sliders/slider3.jpg', title: '<div class="hero-text"><h2 class="hero-heading">Chris Kim</h2><p>Food Connoisseur</p></div>', thumb: '', url: '' }
 			],
