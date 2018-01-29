@@ -120,6 +120,10 @@ a:hover, a:focus {
 .project-img {
   height: 250px !important;
 }
+.slide1 {
+  font-size: 1.5em;
+  color: white;
+}
 @media only screen and (max-width: 550px) {
   .live, .code {
     font-size: 1em;
