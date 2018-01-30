@@ -268,7 +268,7 @@ jQuery(function ($) {
 			if ($message.success == true) {
 				$theForm.slideUp('medium', function () {
 					$alert.removeClass('alert-danger');
-					$alert.addClass('alert-success').html("Thank you. We will contact you soon").slideDown('medium');
+					$alert.addClass('alert-success').html("Thank you. I will contact you soon").slideDown('medium');
 				});
 			} else {
 				$alert.addClass('alert-danger').html("Please check your information and try again").slideDown('medium');
