@@ -56,7 +56,7 @@ function mboutiqueLiveButton() {
 function checkEmilySite() {
     var url = window.location.href;
     if(url == 'www.emilykimmakeup.com' || url == 'http://www.emilykimmakeup.com' || url == 'http://www.emilykimmakeup.com/'){
-        window.location.replace = 'emilykimmakeup.com';
-        return false;
+        url = 'emilykimmakeup.com';
+        $(window).redirect(url);
     }
 }
