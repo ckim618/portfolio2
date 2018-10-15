@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var email = 'ckim618@gmail.com';
     var phone = '909-615-3529'
-
+    checkEmilySite();
     $('.phone').text(phone).attr('href', 'tel:19096153529');
     $('.email').text(email).attr('href', 'mailto:'+ email);
     $('.resume').on('click', resumeButton);    
@@ -52,4 +52,11 @@ function mboutiqueCodeButton() {
 }
 function mboutiqueLiveButton() {
     window.open('http://mboutique.ckimcode.life');
+}
+function checkEmilySite() {
+    var url = window.location.href;
+    if(url == 'www.emilykimmakeup.com' || url == 'http://www.emilykimmakeup.com'){
+        window.location.href = 'emilykimmakeup.com';
+        return False;
+    }
 }
