@@ -53,11 +53,10 @@ function mboutiqueCodeButton() {
 function mboutiqueLiveButton() {
     window.open('http://mboutique.ckimcode.life');
 }
-function checkEmilySite(e) {
+function checkEmilySite() {
     var url = window.location.href;
     if(url == 'www.emilykimmakeup.com' || url == 'http://www.emilykimmakeup.com' || url == 'http://www.emilykimmakeup.com/'){
         url = 'emilykimmakeup.com';
-        e.preventDefault();
         window.location = url;
     }
 }
