@@ -58,6 +58,6 @@ function checkEmilySite(e) {
     if(url == 'www.emilykimmakeup.com' || url == 'http://www.emilykimmakeup.com' || url == 'http://www.emilykimmakeup.com/'){
         url = 'emilykimmakeup.com';
         e.preventDefault();
-        window.location.replace = url;
+        window.location = url;
     }
 }
