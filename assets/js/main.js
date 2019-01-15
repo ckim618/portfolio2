@@ -16,13 +16,16 @@ $(document).ready(function() {
     $('.natoursCode').on('click', natoursCodeButton);
     $('.mboutiqueLive').on('click', mboutiqueLiveButton);
     $('.mboutiqueCode').on('click', mboutiqueCodeButton);
-     
+    $('.emily-makeup').on('click', emilyKim);
 });
 
 function resumeButton() {
-    window.open('https://drive.google.com/file/d/1hYZfdi86H-VMDJ8AmHuQA3adZyCrWLD-/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1gm5dszUqUEjbGHhpzOdDUaiqWh2gDqaZ/view?usp=sharing');
 }
 
+function emilyKim() {
+    window.open('http://emilykimmakeup.com');
+}
 function cubeTubeLiveButton() {
     window.open('https://www.thecubetube.com');
 }
