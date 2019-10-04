@@ -1,23 +1,26 @@
 $(document).ready(function() {
-    var email = 'ckim618@gmail.com';
-    var phone = '909-615-3529'
-    checkEmilySite();
-    $('.phone').text(phone).attr('href', 'tel:19096153529');
-    $('.email').text(email).attr('href', 'mailto:'+ email);
-    $('.resume').on('click', resumeButton);    
-    $('.cubeTubeLive').on('click', cubeTubeLiveButton);
-    $('.cubeTubeLive').on('click', cubeTubeLiveButton);
-    $('.cubeTubeCode').on('click', cubeTubeCodeButton); 
-    $('.southParkLive').on('click', southParkLiveButton);    
-    $('.southParkCode').on('click', southParkCodeButton); 
-    $('.eatAbroadLive').on('click', eatAbroadLiveButton);
-    $('.eatAbroadCode').on('click', eatAbroadCodeButton);  
-    $('.natoursLive').on('click', natoursLiveButton);
-    $('.natoursCode').on('click', natoursCodeButton);
-    $('.mboutiqueLive').on('click', mboutiqueLiveButton);
-    $('.mboutiqueCode').on('click', mboutiqueCodeButton);
-    $('.emily-makeup').on('click', emilyKim);
+    clickHandlers();
 });
+
+function clickHandlers() {
+    var email = 'ckim618@gmail.com';
+    var phone = '909-615-3529';
+
+    $('.phone').text(phone).attr('href', 'tel:19096153529');
+    $('.email').text(email).attr('href', 'mailto:' + email);
+    $('.resume').on('click', resumeButton);
+    $('.cubeTubeLive').on('click', cubeTubeLiveButton);
+    $('.cubeTubeLive').on('click', cubeTubeLiveButton);
+    $('.cubeTubeCode').on('click', cubeTubeCodeButton);
+    $('.southParkLive').on('click', southParkLiveButton);
+    $('.southParkCode').on('click', southParkCodeButton);
+    $('.emily-makeup').on('click', emilyKim);
+    $('.southParkLive').on('click', southParkLiveButton);
+    $('.bungieLive').on('click', bungieLiveButton);
+    $('.pubgLive').on('click', pubgLiveButton);   
+    $('.remyLive').on('click', remyLiveButton); 
+    $('.sanAmigosLive').on('click', sanAmigosLiveButton);     
+}
 
 function resumeButton() {
     window.open('https://drive.google.com/file/d/1gm5dszUqUEjbGHhpzOdDUaiqWh2gDqaZ/view?usp=sharing');
@@ -33,32 +36,20 @@ function cubeTubeCodeButton() {
     window.open('https://github.com/ckim618/The_Cube_Tube');
 }
 function southParkLiveButton() {
-    window.open('http://guess.ckimcode.life/');
+    window.open('https://peaceful-jepsen-76bdb2.netlify.com');
 }
 function southParkCodeButton() {
     window.open('https://github.com/ckim618/South_Park_GuessingGame');
 }
-function eatAbroadLiveButton() {
-    window.open('http://ckimcode.life/eatabroad');
+function pubgLiveButton() {
+    window.open('https://www.pubgesports.com');
 }
-function eatAbroadCodeButton() {
-    window.open('https://github.com/ckim618/eat_abroad');
+function bungieLiveButton() {
+    window.open('https://bungiefoundation.org/');
 }
-function natoursLiveButton() {
-    window.open('http://ckimcode.life/natours/');
+function remyLiveButton() {
+    window.open('https://producers.remymartin.com/');
 }
-function natoursCodeButton() {
-    window.open('https://github.com/ckim618/natours');
-}
-function mboutiqueCodeButton() {
-    window.open('https://github.com/ckim618/M_Boutique');
-}
-function mboutiqueLiveButton() {
-    window.open('http://mboutique.ckimcode.life');
-}
-function checkEmilySite() {
-    var url = window.location.href;
-    if(url == 'www.emilykimmakeup.com' || url == 'http://www.emilykimmakeup.com' || url == 'http://www.emilykimmakeup.com/'){
-        window.location.replace('http://emilykimmakeup.com');
-    }
+function sanAmigosLiveButton() {
+    window.open('https://www.sanamigoscapital.com');
 }
