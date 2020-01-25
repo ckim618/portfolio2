@@ -22,10 +22,6 @@ function clickHandlers() {
     $('.sanAmigosLive').on('click', sanAmigosLiveButton);     
 }
 
-function resumeButton() {
-    window.open('https://drive.google.com/file/d/1gm5dszUqUEjbGHhpzOdDUaiqWh2gDqaZ/view?usp=sharing');
-}
-
 function emilyKim() {
     window.open('http://emilykimmakeup.com');
 }
