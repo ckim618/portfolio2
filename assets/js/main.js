@@ -9,9 +9,7 @@ function clickHandlers() {
     $('.phone').text(phone).attr('href', 'tel:19096153529');
     $('.email').text(email).attr('href', 'mailto:' + email);
     $('.resume').on('click', resumeButton);
-    $('.cubeTubeLive').on('click', cubeTubeLiveButton);
-    $('.cubeTubeLive').on('click', cubeTubeLiveButton);
-    $('.cubeTubeCode').on('click', cubeTubeCodeButton);
+    $('.bungieCareers').on('click', bungieCareersLiveButton);
     $('.southParkLive').on('click', southParkLiveButton);
     $('.southParkCode').on('click', southParkCodeButton);
     $('.emily-makeup').on('click', emilyKim);
@@ -20,6 +18,10 @@ function clickHandlers() {
     $('.pubgLive').on('click', pubgLiveButton);   
     $('.remyLive').on('click', remyLiveButton); 
     $('.sanAmigosLive').on('click', sanAmigosLiveButton);     
+    $('.shapiro').on('click', shapiroLiveButton);  
+    $('.wotc').on('click', wotcLiveButton);  
+    $('.darkAlliance').on('click', darkAllianceLiveButton);  
+
 }
 
 function resumeButton() {
@@ -29,12 +31,10 @@ function resumeButton() {
 function emilyKim() {
     window.open('http://emilykimmakeup.com');
 }
-function cubeTubeLiveButton() {
-    window.open('https://www.thecubetube.com');
+function bungieCareersLiveButton() {
+    window.open('https://careers.bungie.com/');
 }
-function cubeTubeCodeButton() {
-    window.open('https://github.com/ckim618/The_Cube_Tube');
-}
+
 function southParkLiveButton() {
     window.open('https://peaceful-jepsen-76bdb2.netlify.com');
 }
@@ -52,4 +52,16 @@ function remyLiveButton() {
 }
 function sanAmigosLiveButton() {
     window.open('https://www.sanamigoscapital.com');
+}
+
+function shapiroLiveButton() {
+    window.open('https://main.shapiromd.com/');
+}
+
+function wotcLiveButton() {
+    window.open('https://company.wizards.com/en/careers');
+}
+
+function darkAllianceLiveButton() {
+    window.open('https://darkalliance.wizards.com');
 }
